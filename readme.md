@@ -1,5 +1,7 @@
 ## Real-time Charts with ASP.NET Core, SignalR, and Chart.js
 
+![chart example](./chart.gif)
+
 This project shows how to update a real-time chart in your web browser
 using technologies like ASP.NET Core, SignalR, and Chart.js.
 
