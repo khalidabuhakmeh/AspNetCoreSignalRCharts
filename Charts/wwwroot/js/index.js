@@ -1,3 +1,6 @@
+import "chart";
+import "signalr";
+
 const data = JSON.parse(document.getElementById('data').innerHTML);
 const ctx = document.getElementById('myChart').getContext('2d');
 const myChart = new Chart(ctx, {

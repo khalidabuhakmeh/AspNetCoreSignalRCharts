@@ -14,6 +14,14 @@
 <html lang="en">
 <head>
     <title>Charts with Chart.Js and SignalR</title>
+    <script type="importmap">
+        {
+            "imports": {
+                "chart": "/lib/chartjs/chart.umd.js",
+                "signalr": "/lib/microsoft-signalr/signalr.js"                
+            }
+        }
+    </script>
 </head>
 <body>
 <div>
@@ -42,7 +50,5 @@
     </script>
 </div>
 </body>
-<script src="~/lib/microsoft-signalr/signalr.min.js"></script>
-<script src="~/lib/chartjs/chart.min.js"></script>
-<script defer src="~/js/index.js"></script>
+<script defer src="~/js/index.js" type="module"></script>
 </html>

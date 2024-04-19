@@ -3,11 +3,11 @@
   "defaultProvider": "cdnjs",
   "libraries": [
     {
-      "library": "Chart.js@3.9.1",
+      "library": "Chart.js@4.4.1",
       "destination": "wwwroot/lib/chartjs"
     },
     {
-      "library": "microsoft-signalr@6.0.8",
+      "library": "microsoft-signalr@8.0.0",
       "destination": "wwwroot/lib/microsoft-signalr"
     }
   ]
